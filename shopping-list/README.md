@@ -1,6 +1,6 @@
-# Belajar React JS Membuat Linktree
+# Belajar React JS Membuat Shopping List Website
 
-Ini adalah seri belajar ReactJS dari basic sampai kita mambuat mini project, yaitu membuat landing page berdasarkan template yang berada di linktree website
+Ini adalah seri belajar ReactJS mambuat mini project, yaitu membuat shopping list website, yang mana di dalamnya kita dapat menginputkan daftar belaja, dapat dilihat sebagai list juga bisa menghapus nya.
 
 ## Website Screenshot
 
