@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 20px;
+  text-align: center;
+  background-image: url("https://images.pexels.com/photos/2928378/pexels-photo-2928378.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+  padding: 20px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  display: block;
+}
+header {
+  margin-top: 50px;
+}
+header p span {
+  font-weight: bold;
+}
+
+.menu {
+  padding: 30px 0;
+}
+.menu a {
+  text-decoration: none;
+  border: 1px solid #000;
+  display: block;
+  padding: 15px;
+  margin: 10px;
+  font-weight: bold;
+  color: #000;
+  border-radius: 5px;
+}
+
+footer ul {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+footer ul a {
+  font-size: 30px;
+}
