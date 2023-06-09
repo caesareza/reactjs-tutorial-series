@@ -7,7 +7,6 @@ export default function AboutUs() {
         <title>About Us - ro.com</title>
       </Helmet>
       <h1>About Us</h1>
-
       <p>
         Fruitcake oat cake topping liquorice toffee bonbon pudding jelly-o.
         Lemon drops tiramisu candy canes cake jelly-o ice cream. Pie danish
