@@ -7,6 +7,7 @@ export default function PageNotFound() {
         <title>404 Page Not Found - ro.com</title>
       </Helmet>
       <h1>404</h1>
+      <p>Page Not Found</p>
     </section>
   );
 }

@@ -25,7 +25,9 @@ function Layout() {
         <Link to="/about-us">About Us</Link>
         <Link to="/contact">Contact</Link>
       </header>
-      <Outlet />
+      <main>
+        <Outlet />
+      </main>
     </>
   );
 }

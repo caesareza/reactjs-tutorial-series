@@ -1,4 +1,10 @@
-# Getting Started with Create React App
+# Belajar ReactJS React Router
+
+Ini adalah seri belajar ReactJS dari basic sampai kita mambuat mini project, yaitu membuat landing page berdasarkan template yang berada di linktree website
+
+## Website Screenshot
+
+![App Screenshot](./ss.jpg)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
