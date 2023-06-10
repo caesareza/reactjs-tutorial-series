@@ -17,6 +17,9 @@ h2 {
   font-family: "Merriweather Sans", sans-serif;
 }
 
+.product {
+  padding-bottom: 20px;
+}
 .product .title {
   font-size: 20px;
 }
