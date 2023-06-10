@@ -1,4 +1,4 @@
-import { Carousel, Container, Button, Stack } from "react-bootstrap";
+import { Carousel, Container, Button, Stack, Row, Col } from "react-bootstrap";
 import SepatuSatu from "./assets/1.webp";
 import SepatuDua from "./assets/2.webp";
 import SepatuTiga from "./assets/3.webp";
@@ -19,10 +19,9 @@ function ImageGallery() {
   );
 }
 
-function App() {
+function ProductDescription() {
   return (
-    <Container className="product">
-      <ImageGallery />
+    <>
       <div className="header">
         <div>Men&apos;s Shoes</div>
         <Stack direction="horizontal" gap={3}>
@@ -38,6 +37,21 @@ function App() {
         laces bring the bliss with every step.
       </p>
       <Button>Beli Sekarang</Button>
+    </>
+  );
+}
+
+function App() {
+  return (
+    <Container className="product">
+      <Row>
+        <Col sm={12} md={6} lg={8}>
+          <ImageGallery />
+        </Col>
+        <Col sm={12} md={6} lg={4}>
+          <ProductDescription />
+        </Col>
+      </Row>
     </Container>
   );
 }
